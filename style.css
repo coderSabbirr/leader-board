@@ -1,0 +1,127 @@
+ /* Google font */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+ * {
+     font-family: 'Poppins', sans-serif;
+ }
+
+ body {
+     background-color: #F3F1FF;
+ }
+
+ main {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .container {
+     background-color: #ffff;
+     width: 870px;
+     padding: 30px;
+     margin-top: 21px;
+     border-radius: 10px;
+ }
+ hr {
+     margin-bottom: 27px;
+ }
+
+ .top-players {
+     margin-bottom: 30px;
+ }
+
+ .section-title {
+
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 36px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #562EFF;
+     margin-top: 3px;
+ }
+
+ .players {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-row-gap: 29px;
+ }
+
+ .player {
+     display: flex;
+     align-items: center;
+ }
+
+
+
+ .player img {
+     width: 56px;
+     height: 56px;
+ }
+
+ .player-name {
+     margin-left: 16px;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 27px;
+     letter-spacing: 0em;
+     text-align: left;
+ }
+
+ /*--------------------
+   Top blog style
+   ---------------- */
+   .blogs {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-row-gap:26px;
+   }
+   .blog {
+       display: flex;
+   }
+ .blog .thumnail img {
+     width: 177px;
+     height: 117px;
+ }
+ .blog-info {
+    margin-left: 16px;
+
+ }
+ .blog-author{
+     color: #9F9F9F;
+     font-size: 16px;
+ }
+ .blog-author a {
+     text-decoration: none;
+     color: #562EFF;
+     font-size: 16px;
+ }
+ /* Coures style */
+ .courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ }
+ .course .course-banner img {
+    width: 224.38px;
+    height: 105.51px;
+ }
+ .course-author{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ED6B4F;
+    
+ }
+ .fa-star.filed {
+     color:#FFC014;
+   
+ }
+ .fa-star.emtye {
+     color:#AEAEAE;
+
+ }
